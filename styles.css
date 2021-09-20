@@ -1,0 +1,106 @@
+body{
+  margin:0;
+  text-align: center;
+
+}
+.main-class{
+  background: green;
+  margin: 2% auto;
+  font-family: sans-serif;
+  width:80%;
+}
+#heading{
+  margin: 2rem 2rem 0;
+  padding: 2rem 2rem 0;
+  font-family: sans-serif;
+  color: #fff;
+}
+#para{
+  color: white;
+  width: 50%;
+  display: block;
+  text-align: center;
+  margin: 1rem auto;
+  line-height: 1.6;
+}
+#bill-amount,#cash-given{
+  width: 50%;
+  outline: none;
+  font-weight: 300;
+  margin: 0 1rem 1rem;
+  font-family: cursive;
+  border-radius: 1rem;
+  padding: 0.7rem;
+  border: 0.1rem solid  #FFF7AE;
+}
+.input-label,.cash-given-level{
+  display: block;
+  text-align: center;
+  font-size: 1.2rem;
+  color: #FFC069;
+}
+.error-message{
+  color: #CEE5D0;
+  font-size: 1.1rem;
+}
+#btn-check{
+  background-color:#3D087B;
+  border: none;
+  color: #FFC069;
+  padding: 0.7rem 1rem;
+  border-radius: 0.5rem;
+  font-size: large;
+  cursor: pointer;
+  outline: #fff;
+  margin: auto;
+  display: block;
+}
+#btn-check:hover{
+  background-color: #FFF7AE;
+  color: black;
+  font-size: bold;
+}
+caption{
+  color: #FFC069;
+  margin: 2rem;
+  font-size: 1.2rem;
+}
+.table-div{
+  padding: 1rem;
+}
+th,td {
+  border: 1px solid #000;
+  width: 0;
+  border-collapse: collapse;
+  padding: 0.4rem;
+}
+.denominations,.deno-value{
+    color:  #3D087B;
+    background-color: #FFF7AE;
+}
+.value{
+  background-color: #fff;
+  color: fa-2x;
+  font-weight: bold;
+}
+.table-view{
+  text-align: center;
+  margin: auto;
+  border-collapse: collapse;
+  width: 50%;
+  overflow-x: auto;
+}
+.spacing{
+  height: 2rem;
+}
+.links{
+  margin: 1% 1% 0;
+}
+.copywrite{
+  padding: 0 0 1rem;
+}
+img{
+  display: inline;
+  width: 1rem;
+  height:1%;
+}
